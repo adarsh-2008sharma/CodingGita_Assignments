@@ -134,3 +134,70 @@ console.log(val); // 5
 
 let x = "" || 0 || false || null || undefined || "OK";
 console.log(x); // Ok
+
+//Logical NOT !)
+
+//question No.---------6
+// let a = 0;
+// let b = false;
+// let c = "";
+// let d = null;
+// let e = 42;
+// let result = a || b || c || d || e;
+// console.log(result); // 42
+
+// //question No.---------1
+//  let isBanned = false;
+//  let login = !isBanned;
+//  console.log("is user can login ?", login)
+
+// //question No.---------2
+//  let isCompleted = false;
+//  let taskPending = !isCompleted;
+//  console.log("if the task is pending?",taskPending)
+
+// //question No.---------3
+//  let isOn = true;
+//  let lightOff = !isOn;
+//  console.log("is light is off ?", lightOff)
+
+// //question No.---------4
+// let isActive = false;
+// let canAccess = !isActive;
+// console.log("if the user cannot access premium content ?",canAccess)
+
+
+// //question No.---------5
+// let isReadOnly = false;
+// let itCanBeEdited = !isReadOnly;
+// console.log("if it can be edited using ?",itCanBeEdited)
+
+// //Additional Questions (Logical NOT !)
+
+// //question No.---------6
+// let a = 0;
+//  let b = 1;
+//  console.log(!a, !b); //true , false
+
+//  //question No.---------7
+// let x = "Hello";
+// let y = "";
+// console.log(!x, !y);//false, true
+
+ //question No.---------8
+// let val = 5;
+// let result = !val;
+// console.log(result);//false
+
+ //question No.---------9
+let a = 10;
+let b = 20;
+let result = !(a && b);
+console.log(result); // false
+
+
+ //question No.---------10
+let x = 0;
+let y = 1;
+let result = !(x || y);
+console.log(result); // false
